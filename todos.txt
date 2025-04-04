@@ -1,10 +1,10 @@
 code with DSA
 add eat
 eat a veg food
-our todo
+our
 eat
 drink
 eat
 eat something
 eat
-sleepe
+sleep
