@@ -8,3 +8,6 @@ eat
 eat something
 eat
 sleep
+sitt
+master python
+eattt

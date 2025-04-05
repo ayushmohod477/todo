@@ -14,7 +14,7 @@ while True:
 
         todos.append(todo + "\n")
 
-        write_todos('todos.txt', todos)
+        write_todos(todos)
 
     elif user_action.startswith("show"):
 
@@ -36,7 +36,7 @@ while True:
             new_todo = input("Enter a new todoo:")
             todos[number] = new_todo + "\n"
 
-            write_todos('todos.txt', todos)
+            write_todos(todos)
 
         except ValueError:
             print("your command is not valid")
@@ -53,7 +53,7 @@ while True:
 
             todos.pop(number)
 
-            write_todos('todos.txt', todos)
+            write_todos(todos)
 
             message = f"congrats {completed_todo} is completed 🎉"
             print(message)
